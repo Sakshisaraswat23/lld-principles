@@ -93,6 +93,9 @@ public class LSPFollowed{
         List<NonWithdrawAccount>ua = new ArrayList<>();
         ua.add(obj1);
 
+        /*
+        Directly:  withdrawableAccounts.add(new SavingAccount());
+         */
         List<WithdrawAccount>ub = new ArrayList<>();
         ub.add(obj);
         ub.add(obj2);
