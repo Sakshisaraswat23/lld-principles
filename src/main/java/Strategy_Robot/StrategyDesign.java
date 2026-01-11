@@ -73,7 +73,11 @@ class RobotClass{
 }
 public  class StrategyDesign{
     public static void main (String args[]){
-
+    /*
+    dekh idhar tujhe className pata hona chayih
+    Factory desing pattern issi ko fix karta hai, tere pass ek obj creation class hoti hai
+    jo based on input obj return karti hai.
+     */
         RobotClass obj = new RobotClass(new Nowalk(),new Normalfly() );
         obj.fly();
         obj.walk();
